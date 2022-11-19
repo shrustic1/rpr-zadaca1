@@ -1,11 +1,11 @@
 package ba.unsa.etf.rpr;
 
 /**
- * Hello world!
- *
- */
+ * Main class that calls for method evaluate from class ExpressionEvaluator
+ * @author Selma Hrustić
+ * @version 1.0
+ * */
 public class App{
-
     public static void main(String[] args )
     {
         try {
