@@ -39,6 +39,8 @@ public class ExpressionEvaluator{
     public boolean isOpsEmpty(){
         return ops.isEmpty();
     }
-
+    public boolean isValsEmpty(){
+        return vals.isEmpty();
+    }
 }
 
