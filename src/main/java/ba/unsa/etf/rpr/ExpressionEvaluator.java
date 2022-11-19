@@ -36,5 +36,9 @@ public class ExpressionEvaluator{
             throw new RuntimeException();
         }
     }
+    public boolean isOpsEmpty(){
+        return ops.isEmpty();
+    }
+
 }
 
