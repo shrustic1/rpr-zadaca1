@@ -35,7 +35,7 @@ public class ExpressionEvaluatorTest {
     }
 
     @Test
-    public void testinginputFormat4() throws RuntimeException{
+    public void testingInputFormat4() throws RuntimeException{
         assertThrows(Exception.class, () -> { e.evaluate(" 1 + 2 ");});
     }
 }
