@@ -11,7 +11,7 @@ public class App{
         try {
             ExpressionEvaluator e = new ExpressionEvaluator();
             double rezultat = e.evaluate(args[0]);
-            System.out.println(args[0] + "=" + rezultat);
+            System.out.println(args[0] + " = " + rezultat);
         } catch (RuntimeException e){
             System.out.println("Format unosa nije korektan!");
         }
