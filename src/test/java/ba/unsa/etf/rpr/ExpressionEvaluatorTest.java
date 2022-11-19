@@ -34,4 +34,8 @@ public class ExpressionEvaluatorTest {
         assertThrows(Exception.class, () -> { e.evaluate(" ");});
     }
 
+    @Test
+    public void testinginputFormat4() throws RuntimeException{
+        assertThrows(Exception.class, () -> { e.evaluate(" 1 + 2 ");});
+    }
 }
