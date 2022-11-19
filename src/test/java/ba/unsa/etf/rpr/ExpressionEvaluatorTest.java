@@ -44,4 +44,9 @@ public class ExpressionEvaluatorTest {
         assertTrue(e.isOpsEmpty());
     }
 
+    @Test
+    void testingIsValsEmpty(){
+        assertTrue(e.isValsEmpty());
+    }
+
 }
