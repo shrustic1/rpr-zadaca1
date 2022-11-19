@@ -19,5 +19,8 @@ public class ExpressionEvaluatorTest {
         assertThrows(Exception.class, () -> { e.evaluate("(1+2)");});
     }
 
-
+    @Test
+    public void testingInputFormat2() throws RuntimeException{
+        assertThrows(Exception.class, () -> { e.evaluate("sklj");});
+    }
 }
