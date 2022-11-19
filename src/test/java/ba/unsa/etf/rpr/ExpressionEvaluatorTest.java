@@ -29,4 +29,9 @@ public class ExpressionEvaluatorTest {
         assertThrows(Exception.class, () -> { e.evaluate("( ( 1 + 2 ) ) )");});
     }
 
+    @Test
+    public void testingEmptyInput() throws RuntimeException{
+        assertThrows(Exception.class, () -> { e.evaluate(" ");});
+    }
+
 }
